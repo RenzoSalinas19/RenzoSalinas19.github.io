@@ -159,14 +159,16 @@ client.init(uid, {
 function initGui() {
   var controls = document.getElementById('controls');
   var buttonsText = '';
-  buttonsText += '<button id="show1" type="button" class="btn btn-primary me-2 btn-lg">Mostrar Plataformas</button>';
-  buttonsText += '<button id="hide1" type="button" class="btn btn-primary me-2 btn-lg">Esconder Plataformas</button>';
-  buttonsText += '<button id="show2" type="button" class="btn btn-secondary me-2 btn-lg">Mostrar Paredes</button>';
-  buttonsText += '<button id="hide2" type="button" class="btn btn-secondary me-2 btn-lg">Esconder Paredes</button>';
-  buttonsText += '<button id="show3" type="button" class="btn btn-dark me-2 btn-lg">Mostrar Cubiertas</button>';
-  buttonsText += '<button id="hide3" type="button" class="btn btn-dark me-2 btn-lg">Esconder Cubiertas</button>';
-  buttonsText += '<button id="show4" type="button" class="btn btn-dark me-2 btn-lg">Mostrar Original</button>';
-  buttonsText += '<button id="hide4" type="button" class="btn btn-dark me-2 btn-lg">Esconder Original</button>';
+  buttonsText += '<button id="show1" type="button" class="btn btn-primary me-4 btn-lg">Mostrar Plataformas</button>';
+  buttonsText += '<button id="show2" type="button" class="btn btn-secondary me-4 btn-lg">Mostrar Paredes</button>';
+  buttonsText += '<button id="show3" type="button" class="btn btn-dark me-4 btn-lg">Mostrar Cubiertas</button>';
+  buttonsText += '<button id="show4" type="button" class="btn btn-success me-4 btn-lg">Mostrar Original</button>';
+  buttonsText += '<br>';
+  buttonsText += '<br>';
+  buttonsText += '<button id="hide1" type="button" class="btn btn-primary me-4 btn-lg">Esconder Plataformas</button>';
+  buttonsText += '<button id="hide2" type="button" class="btn btn-secondary me-4 btn-lg">Esconder Paredes</button>';
+  buttonsText += '<button id="hide3" type="button" class="btn btn-dark me-4 btn-lg">Esconder Cubiertas</button>';
+  buttonsText += '<button id="hide4" type="button" class="btn btn-success me-4 btn-lg">Esconder Original</button>';
   controls.innerHTML = buttonsText;
 }
 
